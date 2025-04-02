@@ -8,6 +8,7 @@ h2{
     color : crimson;
     text-decoration: underline;
 }
+
 h1, h2 ,h3, h4, h5, h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -15,7 +16,46 @@ h1, h2 ,h3, h4, h5, h6{
 P{
     font-family: 'courier new', courier, monospace;
 }
+
 li{
     color: rgb(51, 49, 173);
     font-family: 'courier new', courier, monospace;
 }
+
+#banner{
+    background-color: rgb(156, 86, 156);
+}
+
+#nav{
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+} 
+
+#nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 10px;
+}
+
+#nav a:hover{
+    background-color: purple;
+    color: white;
+    padding: 10px;   
+}
+
+#footer{
+    background-color: darkgray;
+    min-height: 100px;
+    text-align: center;
+    
+}
+
+#footer a{
+    color: blue;
+    text-decoration: overline;
+    font-size: large;
+    margin-right: 10px;
+    padding: 50px;
+}    
