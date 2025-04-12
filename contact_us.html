@@ -7,80 +7,103 @@
     <link rel="stylesheet" href="stylesheets/site.css"/>
 </head>
 <body>
-    <a href="index.html">Home</a>
-    <a href="about_us.html">About Us</a>
-    <a href="contact_us.html">Contact Us</a>
+    <Header>
+        <div id="banner">
+            <p>Notification</p>
+        </div>
+        <nav>
+            <!-- Anchor tags used for navigation -->
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+        
+    </Header>
     
-    <h2>Locations</h2>
-    <table>
-        <tr>
-            <th>Logo</th>
-            <th>Location</th>
-            <th>Opening Hours</th>
-            <th>Email Address</th>
-            <th>Phone Number</th>
-            <th>Fax</th>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo st">
-            </td>
-            <td>St. Catherine</td>
-            <td>9Am - 5PM</td>
-            <td>St.Catherinebranch@Art.com</td>
-            <td>1(876)442-1656</td>
-            <td>8764422585678</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo kg">
-            </td>   
-            <td>Kingston</td>
-            <td>9Am - 5PM</td>
-            <td>kingstonbranch@Art.com</td>
-            <td>1(876)442-2656</td>
-            <td>876442255678</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo Md">
-            </td>
-            <td>Mandiville</td>
-            <td>9Am - 5PM</td>
-            <td>mandivillebranch@Art.com</td>
-            <td>1(876)442-2656</td>
-            <td>876442265478</td>
-        </tr>
-        <tr>
-            <td>
-                <img src="" alt="logo or">
-            </td>
-            <td>Ochi Rios</td>
-            <td>9Am - 5PM</td>
-            <td>Ochiroisbranch@Art.com</td>
-            <td>1(876)442-2656</td>
-            <td>87644226478</td>
-        </tr>
-    </table>
+     <main>
+        <article>
+        <h2>Locations</h2>
+        <table>
+            <tr>
+                <th>Logo</th>
+                <th>Location</th>
+                <th>Opening Hours</th>
+                <th>Email Address</th>
+                <th>Phone Number</th>
+                <th>Fax</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo st">
+                </td>
+                <td>St. Catherine</td>
+                <td>9Am - 5PM</td>
+                <td>St.Catherinebranch@Art.com</td>
+                <td>1(876)442-1656</td>
+                <td>8764422585678</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo kg">
+                </td>   
+                <td>Kingston</td>
+                <td>9Am - 5PM</td>
+                <td>kingstonbranch@Art.com</td>
+                <td>1(876)442-2656</td>
+                <td>876442255678</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo Md">
+                </td>
+                <td>Mandiville</td>
+                <td>9Am - 5PM</td>
+                <td>mandivillebranch@Art.com</td>
+                <td>1(876)442-2656</td>
+                <td>876442265478</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="" alt="logo or">
+                </td>
+                <td>Ochi Rios</td>
+                <td>9Am - 5PM</td>
+                <td>Ochiroisbranch@Art.com</td>
+                <td>1(876)442-2656</td>
+                <td>87644226478</td>
+            </tr>
+        </table>
+        </article>
+        
+        <article><h2>General Inquires</h2>
+            <form action="confirmation.html">
+                <label for="fullname">Name: *</label><br/>
+                <input required type="text" id="fullname" name="fullname"/>
+                <br/><br/>
+                <label for="email">Email Address: *</label><br/>
+                <input  required type="email" id="email"name="emailaddress"/>
+                <br/><br/>
+                <label>Are you employe? *</label><br/>
+                <input type="radio" value="Y" name="emplayed"/> Yes
+                <input type="radio" value="N" name="employed"/> No
+                <br/><br/>
+                <label  for="inquiey">State Your inquiry *</label><br/>
+                <textarea required cols="50" rows="10" max="150" id="inquiey"></textarea>
+                <br/><br/>
+                <input type="submit"/>
+            </form>
+        </article>
+        
+    </main>
+    
+    <Footer>
+        <div id="footer"><br/><br/>
+            <a href="https://ebay.com" target="blank">ebay</a>
 
-    <h2>General Inquires</h2>
-    <form action="confirmation.html">
-        <label for="fullname">Name: *</label><br/>
-        <input required type="text" id="fullname" name="fullname"/>
-        <br/><br/>
-        <label for="email">Email Address: *</label><br/>
-        <input  required type="email" id="email"name="emailaddress"/>
-        <br/><br/>
-        <label>Are you employe? *</label><br/>
-        <input type="radio" value="Y" name="emplayed"/> Yes
-        <input type="radio" value="N" name="employed"/> No
-        <br/><br/>
-        <label  for="inquiey">State Your inquiry *</label><br/>
-        <textarea required cols="50" rows="10" max="150" id="inquiey"></textarea>
-        <br/><br/>
-        <input type="submit"/>
+            <a href="https://www.ifixit.com/" target="blank">Fix your device guide</a>
 
-    </form>
-
+            <a href="https://www.amazon.com/" target="blank">Amazon</a>
+        </div>
+    </Footer>
 </body>
 </html>
