@@ -24,7 +24,14 @@ li{
 
 #banner{
     background-color: rgb(156, 86, 156);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
+#banner p{
+    margin: 0;
+}
+
 
 #nav{
     background-color: cadetblue;
@@ -59,3 +66,8 @@ li{
     margin-right: 10px;
     padding: 50px;
 }    
+
+#main{
+    width: 80%;
+    margin: 0 auto;
+}
